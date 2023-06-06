@@ -184,7 +184,6 @@ select.countryC, .sel-cc{display: inline-block;}
 @media only screen and (max-width: 1024px){
 	.innner-project-medias{min-height: 460px;}
 	.innner-project-details{padding: 30px 50px;}
-	.innner-project-details h2{font-size: 25px;}
 }
 @media only screen and (max-width: 992px){
 	.innner-project-medias{min-height: 440px;}
@@ -216,7 +215,6 @@ select.countryC, .sel-cc{display: inline-block;}
 @media only screen and (max-width: 500px){
 	.innner-project-medias{min-height: 400px;}
 	.projects-title p{font-size: 14px;}
-	.innner-project-details h2{font-size: 25px;}
 	.crescent-bay-logo img{width:250px;}
 	.page-filter-section{padding: 15px 0px;}
 	.filter-field, .filter-field-button{padding: 4px 10px 4px 10px;}
@@ -225,10 +223,9 @@ select.countryC, .sel-cc{display: inline-block;}
 @media only screen and (max-width: 480px){
 	.header-navigaton-logo img{width: 80%;}
 	.innner-project-details .projects-details-ctas button, .innner-project-details .projects-details-ctas a{padding: 5px 15px;font-size: 12px;}
-	.innner-project-details h2{font-size: 20px;}
 	.innner-project-details table tbody tr th{font-size: 13px;}
 	.innner-project-details{padding: 25px 20px;}
-	.innner-row-bg{padding: 25px 8px !important;}
+	.innner-row-bg{padding: 45px 8px !important;}
 	.innner-project-medias{min-height: 300px;}
 	.navtoggles{right: 15px;}
 	.header-navs-lists{right: 40px;}
@@ -243,8 +240,12 @@ select.countryC, .sel-cc{display: inline-block;}
 	.sidenav .closebtn img{width: 30px;}
 	.dropdown h3{font-size: 25px;}
 	.dropdown h3::after{width: 155px;}
+	.innner-project-details ul li{font-size: 15px;}
 }
-
-@media only screen and (max-width: 370px){
-	.innner-project-details h2{font-size: 18px;margin-bottom: 10px;}
+@media only screen and (max-width: 375px){
+	.footer-widgets h4, .bottom-footer-widgets h4{font-size: 15px;}
+	.footer-widgets ul li a{font-size: 11px;}
+	.bottom-footer-widgets ul li a img{width: 30px;}
+	.bottom-footer-widgets p{font-size: 10px;line-height: 2;}
+	.banner-texts h1{font-size: 35px;}
 }
